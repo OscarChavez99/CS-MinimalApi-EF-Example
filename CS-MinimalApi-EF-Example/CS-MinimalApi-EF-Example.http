@@ -1,0 +1,6 @@
+@CS_MinimalApi_EF_Example_HostAddress = http://localhost:5196
+
+GET {{CS_MinimalApi_EF_Example_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
