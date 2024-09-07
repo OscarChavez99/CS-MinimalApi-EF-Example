@@ -1,6 +1,5 @@
 ﻿using CS_MinimalApi_EF_Example.Application;
 using CS_MinimalApi_EF_Example.Application.Data;
-using CS_MinimalApi_EF_Example.Application.Models;
 using CS_MinimalApi_EF_Example.Routes;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,7 +17,6 @@ builder.Services.AddScoped<TeachersHandler>();
 var app = builder.Build();
 Routes.MapEndpoints(app);
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

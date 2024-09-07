@@ -1,5 +1,4 @@
-﻿
-using CS_MinimalApi_EF_Example.Application;
+﻿using CS_MinimalApi_EF_Example.Application;
 using CS_MinimalApi_EF_Example.Application.Models;
 using Microsoft.AspNetCore.Mvc;
 
